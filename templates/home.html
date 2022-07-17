@@ -2,13 +2,13 @@
 {% block content %}
 <section class="hero">
     <div class="hero-content">
-        <h1 class="hero-title">We <span><3 </span> people who code</h1>
+        <h1 class="hero-title">We <span><10 </span> people who code</h1>
         <p class="hero-paragraph">
-            We build products that empower developers and connect them to solutions that enable productivity, growth, and discovery.
+            We are students who are trying to support and help solve the issues in difficulties that people face with coding.
         </p>
         <div class="hero-options">
             <a href="#" class="btn btn-developers">For developers</a>
-            <a href="#" class="btn btn-businesses">For businesses</a>
+            <a href="#" class="btn btn-businesses">For learning</a>
             <a href="{% url 'stackbase:question-lists' %}" class="btn btn-developers" style="margin-left: 5px;">Latest Questions</a>
 
         </div>
@@ -22,7 +22,7 @@
            <h2 class="section-title">For developers, by developers
            </h2>
            <div class="section-line"></div>
-           <p class="section-description">GROUP ONE is an <a href="#">open community</a> for anyone that codes. We help you get answers to your toughest coding questions, share knowledge with your coworkers in private, and find your next dream job.
+           <p class="section-description">GROUP ONE is for anyone that codes. We help you get answers to your toughest coding questions, share knowledge with your coworkers, and find your next dream job.
            </p>
        </div>
        <div class="options">
@@ -35,10 +35,10 @@
                </div>
                <div class="option-description">
                    Get answers to more than 16.5 million questions and give back by sharing your knowledge with others.
-                   <a href="#">Sign up</a> for an account.
+                   <a href="{% url 'login' %}">Sign up</a> for an account.
                </div>
                <div class="option-button">
-                   <a href="#" class="option-link btn btn-dark-blue">
+                   <a href="{% url 'stackbase:question-lists' %}" class="option-link btn btn-dark-blue">
                        Browse questions
                    </a>
                </div>
@@ -54,8 +54,8 @@
                    Level up with GROUP ONE while you work. Share knowledge privately with your coworkers using our flagship Q&A engine.
                </div>
                <div class="option-button">
-                   <a href="#" class="option-link btn btn-orange">
-                       Try for free
+                   <a href="https://www.youtube.com/watch?v=TLKxdTmk-zc" class="option-link btn btn-orange">
+                       Watch Video
                    </a>
                </div>
            </div>
@@ -73,8 +73,8 @@
 
                </div>
                <div class="option-button">
-                   <a href="#" class="option-link btn btn-dark-blue">
-                       Find a job
+                   <a href="https://www.youtube.com/watch?v=Otr3Up8wRn0" class="option-link btn btn-dark-blue">
+                       Watch Video
                    </a>
                </div>
            </div>
@@ -85,9 +85,9 @@
 <section class="for-businesses">
     <div class="container">
         <div class="section-head">
-            <h2 class="section-title">For businesses, by developers</h2>
+            <h2 class="section-title">For learning, by developers</h2>
             <div class="section-line"></div>
-            <p class="section-description">Our mission is to help developers write the script of the future. This means helping you find and hire skilled developers for your business and providing them the tools they need to share knowledge and work effectively.</p>
+            <p class="section-description">Our mission is to help developers write the script of the future. This means helping people find and hire skilled developers for their project and providing them the tools they need to share knowledge and work effectively.</p>
         </div>
 
 
